@@ -2,105 +2,136 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ángel Ortiz Pérez | Technology Leader</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ángel Ortiz Pérez | Senior Technology Leader</title>
+  <meta name="description" content="Ángel Ortiz Pérez - 30+ años liderando CX y Transformación Digital" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css" />
-  <meta name="description" content="Ángel Ortiz Pérez - Senior Technology Leader & Digital Transformation Expert" />
 </head>
 <body>
   <div class="page">
+    <!-- Header -->
     <header class="nav">
       <div class="nav-wrap">
         <div class="brand">Ángel Ortiz</div>
-    
         <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
-    
         <nav class="nav-menu">
           <a href="#inicio">Inicio</a>
           <a href="#resumen">Resumen</a>
+          <a href="#fases">Fases</a>
           <a href="#carrera">Carrera</a>
           <a href="#logros">Logros</a>
           <a href="#habilidades">Habilidades</a>
+          <a href="#premios">Reconocimientos</a>
           <a href="#graficos">Gráficos</a>
           <a href="#contacto">Contacto</a>
         </nav>
       </div>
     </header>
-  
-    <main>
-      <section id="inicio" class="hero container">
+
+    <!-- Hero -->
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
         <div class="hero-left">
           <h1 id="name">Ángel Ortiz Pérez</h1>
           <h2 id="title">Senior Technology Leader & Digital Transformation Expert</h2>
-          <p id="subtitle">30+ años impulsando Experiencia de Cliente e Innovación Digital</p>
+          <p class="hero-sub" id="subtitle">30+ años impulsando Experiencia de Cliente e Innovación Digital</p>
           <div class="contact">
             <a id="emailLink" href="mailto:angel.ortizp@gmail.com">angel.ortizp@gmail.com</a>
             <span>·</span>
             <a id="linkedinLink" href="https://www.linkedin.com/in/angelortiz/" target="_blank" rel="noopener">LinkedIn</a>
             <span>·</span>
-            <a id="downloadCV" class="btn-cv" href="docs/Angel_Ortiz_CV.pdf" target="_blank" rel="noopener" download>Descargar CV (PDF)</a>
+            <a id="downloadCV" class="btn btn-cv" href="docs/Angel_Ortiz_CV.pdf" download>Descargar CV (PDF)</a>
             <span>·</span>
             <span id="location">Madrid, España</span>
-          </div>        
+          </div>
+          <div class="hero-stats" id="heroStats">
+            <!-- stats desde JSON -->
+          </div>
         </div>
         <div class="hero-right">
-          <img src="img/angel-ortiz.jpg" alt="Foto profesional de Ángel Ortiz Pérez" class="avatar" />
+          <img src="img/angel-ortiz.jpg" class="avatar" alt="Foto profesional de Ángel Ortiz" />
         </div>
-      </section>
-  
-      <section id="resumen" class="container section">
-        <h3>Resumen Ejecutiva</h3>
-        <p id="summary">Profesionala orientado a resultados con más de tres décadas de experiencia liderando estrategias de Experiencia de Cliente (CX) 
-              y Transformación Digital para líderes de la industria. Con 30 años entregando proyectos de impacto, incluyendo más de 9 años en 
-              proveedores de software de primera clase como Oracle y Salesforce, 8+ años liderando proyectos de transformación digital para 
-              Experiencia de Cliente y Empleado en clientes finales, mi enfoque está en optimizar las experiencias de cliente y empleado a 
-              través de la innovación y la implementación de plataformas Cloud de vanguardia.
-        </p>
-      </section>
-  
-      <section id="carrera" class="container section">
-        <h3>Trayectoria</h3>
-        <div class="timeline" id="timeline"></div>
-      </section>
-  
-      <section id="logros" class="container section">
-        <h3>Logros Clave</h3>
+      </div>
+    </section>
+
+    <!-- Resumen ejecutivo -->
+    <section id="resumen" class="section">
+      <div class="container">
+        <h3 class="section-title">Resumen Ejecutivo</h3>
+        <div class="summary" id="summary">
+          <!-- párrafos desde JSON -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Fases principales -->
+    <section id="fases" class="section">
+      <div class="container">
+        <h3 class="section-title">Fases de Carrera</h3>
+        <div class="phase-grid" id="phases">
+          <!-- cards fases desde JSON -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Career timeline con líneas -->
+    <section id="carrera" class="section">
+      <div class="container">
+        <h3 class="section-title">Trayectoria</h3>
+        <div class="line-timeline" id="lineTimeline">
+          <!-- items desde JSON -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Logros -->
+    <section id="logros" class="section">
+      <div class="container">
+        <h3 class="section-title">Logros</h3>
         <div class="cards" id="achievements"></div>
-      </section>
-  
-      <section id="habilidades" class="container section">
-        <h3>Habilidades</h3>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="section">
+      <div class="container">
+        <h3 class="section-title">Habilidades</h3>
         <div class="skills" id="skills"></div>
-      </section>
-  
-      <section id="graficos" class="container section">
-        <h3>Gráficos Dinámicos</h3>
+      </div>
+    </section>
+
+    <!-- Reconocimientos -->
+    <section id="premios" class="section">
+      <div class="container">
+        <h3 class="section-title">Reconocimientos & Premios</h3>
+        <div class="awards-grid" id="awards"></div>
+      </div>
+    </section>
+
+    <!-- Gráficos -->
+    <section id="graficos" class="section">
+      <div class="container">
+        <h3 class="section-title">Gráficos</h3>
         <div class="charts">
           <div class="chart-card">
-            <h4>Timeline de Carrera</h4>
-            <canvas id="careerChart" width="600" height="320"></canvas>
+            <h4>Años por Fase</h4>
+            <canvas id="careerChart"></canvas>
           </div>
           <div class="chart-card">
             <h4>Matriz de Competencias</h4>
-            <canvas id="skillsRadar" width="600" height="320"></canvas>
+            <canvas id="skillsRadar"></canvas>
           </div>
         </div>
-      </section>
-  
-      <section id="contacto" class="container section">
-        <h3>Contacto</h3>
-        <p>Correo: <a id="emailLink2" href="mailto:angel.ortizp@gmail.com">angel.ortizp@gmail.com</a> · <span id="location2">Madrid, España</span></p>
-      </section>
-    </main>
-  
-    <footer class="footer">
-      <div class="container">© 2025 Ángel Ortiz Pérez</div>
-    </footer>
-  
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
-    <script src="assets/app.js"></script>
-  </div>
-</body>
-</html>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+      <div class="container">
+        <h3 class="section-title">Contacto</h3>
+        <p>Correo: <a id="emailLink2" href="mailto:angel.ortizp@gmail.com">angel.ortizp@gmail.com</
