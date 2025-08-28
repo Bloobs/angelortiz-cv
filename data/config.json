@@ -9,9 +9,18 @@
     "cv_pdf": "docs/Angel_Ortiz_CV.pdf"
   },
   "stats": [
-    { "value": "30+", "label": "Años en tecnología" },
-    { "value": "138", "label": "Personas lideradas" },
-    { "value": "3x", "label": "Ventas (UE)" }
+    {
+      "value": "30+",
+      "label": "Años en tecnología"
+    },
+    {
+      "value": "138",
+      "label": "Personas lideradas"
+    },
+    {
+      "value": "3x",
+      "label": "Ventas (UE)"
+    }
   ],
   "summary": [
     "Profesional orientado a resultados con tres décadas liderando estrategias de Customer Experience (CX) y Transformación Digital en compañías líderes y fabricantes de software de primer nivel (Oracle, Salesforce). Experto en convertir retos de negocio en hojas de ruta tecnológicas medibles, optimizando journeys de clientes y empleados y entregando ROI probado en cada proyecto.",
@@ -72,29 +81,87 @@
     }
   ],
   "achievements": [
-    { "metric": "3x", "text": "Incremento de ventas (Unidad Editorial)" },
-    { "metric": "4.5 años", "text": "Extensión del LTV medio (Unidad Editorial)" },
-    { "metric": "138", "text": "Tamaño máximo de equipo gestionado" },
-    { "metric": "49", "text": "Equipo EX global (Prosegur)" }
+    {
+      "metric": "3x",
+      "text": "Incremento de ventas (Unidad Editorial)"
+    },
+    {
+      "metric": "4.5 años",
+      "text": "Extensión del LTV medio (Unidad Editorial)"
+    },
+    {
+      "metric": "138",
+      "text": "Tamaño máximo de equipo gestionado"
+    },
+    {
+      "metric": "49",
+      "text": "Equipo EX global (Prosegur)"
+    }
   ],
   "skills": [
-    { "name": "Customer Experience", "level": 95 },
-    { "name": "Transformación Digital", "level": 95 },
-    { "name": "Liderazgo de equipos", "level": 90 },
-    { "name": "CRM 360 (Salesforce)", "level": 95 },
-    { "name": "AI/ML", "level": 85 }
+    {
+      "name": "Customer Experience",
+      "level": 95
+    },
+    {
+      "name": "Transformación Digital",
+      "level": 95
+    },
+    {
+      "name": "Liderazgo de equipos",
+      "level": 90
+    },
+    {
+      "name": "CRM 360 (Salesforce)",
+      "level": 95
+    },
+    {
+      "name": "AI/ML",
+      "level": 85
+    }
   ],
   "awards": [
-    { "icon": "🏆", "text": "Platinum Contact Center Award (2016 & 2017) · Mejor despliegue multicanal" },
-    { "icon": "🎖️", "text": "McKinsey StartUp 2000 Award · Silice Computers" },
-    { "icon": "🎓", "text": "Profesor en IE Business School, UCM, Instituto Cajasol (2017–)" }
+    {
+      "icon": "🏆",
+      "text": "Platinum Contact Center Award (2016 & 2017) · Mejor despliegue multicanal"
+    },
+    {
+      "icon": "🎖️",
+      "text": "McKinsey StartUp 2000 Award · Silice Computers"
+    },
+    {
+      "icon": "🎓",
+      "text": "Profesor en IE Business School, UCM, Instituto Cajasol (2017–)"
+    }
   ],
   "career_years": {
-    "labels": ["Desarrollo & Sistemas", "Vendors (Oracle, SF)", "Cliente final"],
-    "values": [17, 10, 8]
+    "labels": [
+      "Desarrollo & Sistemas",
+      "Vendors (Oracle, SF)",
+      "Cliente final"
+    ],
+    "values": [
+      17,
+      10,
+      8
+    ]
   },
   "radar": {
-    "labels": ["Liderazgo Técnico", "Customer Experience", "Transformación Digital", "Gestión de Equipos", "Sales & Consulting", "Innovación"],
-    "values": [9, 10, 10, 9, 8, 9]
+    "labels": [
+      "Liderazgo Técnico",
+      "Customer Experience",
+      "Transformación Digital",
+      "Gestión de Equipos",
+      "Sales & Consulting",
+      "Innovación"
+    ],
+    "values": [
+      9,
+      10,
+      10,
+      9,
+      8,
+      9
+    ]
   }
 }

@@ -12,13 +12,10 @@
 </head>
 <body>
   <div class="page">
-    <!-- Header -->
     <header class="nav">
       <div class="nav-wrap">
         <div class="brand">Ángel Ortiz</div>
-        <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
-          <span></span><span></span><span></span>
-        </button>
+        <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
         <nav class="nav-menu">
           <a href="#inicio">Inicio</a>
           <a href="#resumen">Resumen</a>
@@ -33,7 +30,6 @@
       </div>
     </header>
 
-    <!-- Hero -->
     <section id="inicio" class="hero">
       <div class="container hero-grid">
         <div class="hero-left">
@@ -49,9 +45,7 @@
             <span>·</span>
             <span id="location">Madrid, España</span>
           </div>
-          <div class="hero-stats" id="heroStats">
-            <!-- stats desde JSON -->
-          </div>
+          <div class="hero-stats" id="heroStats"></div>
         </div>
         <div class="hero-right">
           <img src="img/angel-ortiz.jpg" class="avatar" alt="Foto profesional de Ángel Ortiz" />
@@ -59,37 +53,27 @@
       </div>
     </section>
 
-    <!-- Resumen ejecutivo -->
     <section id="resumen" class="section">
       <div class="container">
         <h3 class="section-title">Resumen Ejecutivo</h3>
-        <div class="summary" id="summary">
-          <!-- párrafos desde JSON -->
-        </div>
+        <div class="summary" id="summary"></div>
       </div>
     </section>
 
-    <!-- Fases principales -->
     <section id="fases" class="section">
       <div class="container">
         <h3 class="section-title">Fases de Carrera</h3>
-        <div class="phase-grid" id="phases">
-          <!-- cards fases desde JSON -->
-        </div>
+        <div class="phase-grid" id="phases"></div>
       </div>
     </section>
 
-    <!-- Career timeline con líneas -->
     <section id="carrera" class="section">
       <div class="container">
         <h3 class="section-title">Trayectoria</h3>
-        <div class="line-timeline" id="lineTimeline">
-          <!-- items desde JSON -->
-        </div>
+        <div class="line-timeline" id="lineTimeline"></div>
       </div>
     </section>
 
-    <!-- Logros -->
     <section id="logros" class="section">
       <div class="container">
         <h3 class="section-title">Logros</h3>
@@ -97,7 +81,6 @@
       </div>
     </section>
 
-    <!-- Habilidades -->
     <section id="habilidades" class="section">
       <div class="container">
         <h3 class="section-title">Habilidades</h3>
@@ -105,7 +88,6 @@
       </div>
     </section>
 
-    <!-- Reconocimientos -->
     <section id="premios" class="section">
       <div class="container">
         <h3 class="section-title">Reconocimientos & Premios</h3>
@@ -113,25 +95,27 @@
       </div>
     </section>
 
-    <!-- Gráficos -->
     <section id="graficos" class="section">
       <div class="container">
         <h3 class="section-title">Gráficos</h3>
         <div class="charts">
-          <div class="chart-card">
-            <h4>Años por Fase</h4>
-            <canvas id="careerChart"></canvas>
-          </div>
-          <div class="chart-card">
-            <h4>Matriz de Competencias</h4>
-            <canvas id="skillsRadar"></canvas>
-          </div>
+          <div class="chart-card"><h4>Años por Fase</h4><canvas id="careerChart"></canvas></div>
+          <div class="chart-card"><h4>Matriz de Competencias</h4><canvas id="skillsRadar"></canvas></div>
         </div>
       </div>
     </section>
 
-    <!-- Contacto -->
     <section id="contacto" class="section">
       <div class="container">
         <h3 class="section-title">Contacto</h3>
-        <p>Correo: <a id="emailLink2" href="mailto:angel.ortizp@gmail.com">angel.ortizp@gmail.com</
+        <p>Correo: <a id="emailLink2" href="mailto:angel.ortizp@gmail.com">angel.ortizp@gmail.com</a> · <span id="location2">Madrid, España</span></p>
+      </div>
+    </section>
+
+    <footer class="footer"><div class="container">© 2025 Ángel Ortiz Pérez</div></footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
