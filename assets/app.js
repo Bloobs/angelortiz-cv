@@ -71,6 +71,28 @@ function renderCharts(cfg){
   }
 }
 
+// Menú hamburguesa
+document.addEventListener('DOMContentLoaded', () => {
+  const toggle = document.querySelector('.nav-toggle');
+  const menu = document.querySelector('.nav-menu');
+  if (!toggle || !menu) return;
+
+  toggle.addEventListener('click', () => {
+    const open = toggle.classList.toggle('is-open');
+    menu.classList.toggle('is-open', open);
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+
+  // Cierra el menú al hacer clic en un enlace (mejor UX)
+  menu.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      toggle.classList.remove('is-open');
+      menu.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+});
+
 (async()=>{
   const cfg = await loadConfig();
   fillHeader(cfg);
