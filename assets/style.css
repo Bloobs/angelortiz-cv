@@ -310,3 +310,14 @@ body::before{
   color:#6b7280;
   margin-top:24px;
 }
+
+/* Aire global sin tocar el HTML: centra y limita el ancho visual */
+body > *{
+  width: min(90%, 1140px);
+  margin-inline: auto;
+}
+.nav, .footer{ width: 100%; }           /* mantén barras a full-width si quieres */
+.nav .container, .footer .container{
+  width: min(90%, 1140px);
+  margin-inline: auto;
+}
