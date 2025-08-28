@@ -1,0 +1,1 @@
+window.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.card').forEach((c,i)=>{c.style.opacity=0;setTimeout(()=>{c.style.transition='opacity .6s ease';c.style.opacity=1;},150*i)})});
