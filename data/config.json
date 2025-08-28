@@ -1,0 +1,118 @@
+{
+  "personal": {
+    "name": "Ángel Ortiz Pérez",
+    "title": "Senior Technology Leader & Digital Transformation Expert",
+    "subtitle": "30+ años impulsando Experiencia de Cliente e Innovación Digital",
+    "email": "angel.ortizp@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/angelortiz/",
+    "location": "Madrid, España"
+  },
+  "summary": "Profesional con más de 30 años liderando estrategias de Customer Experience (CX) y Transformación Digital en clientes finales y software vendors (Oracle, Salesforce). Enfocado en ROI, eficiencia operativa y experiencia de clientes y empleados.",
+  "timeline": [
+    {
+      "period": "2022–Presente",
+      "company": "Salesforce",
+      "role": "Senior Account Executive",
+      "desc": "CRM 360, IA generativa (Agentforce), estrategia de valor para grandes cuentas.",
+      "icon": "💼"
+    },
+    {
+      "period": "2018–2022",
+      "company": "Prosegur",
+      "role": "Employee Experience Officer",
+      "desc": "Liderazgo global EX (49 personas), IA en recruiting, dashboards eNPS.",
+      "icon": "🚀"
+    },
+    {
+      "period": "2014–2018",
+      "company": "Unidad Editorial",
+      "role": "Customer Experience Officer",
+      "desc": "3x ventas, LTV 4.5 años, multicanal, Big Data + NBA.",
+      "icon": "🎯"
+    },
+    {
+      "period": "2007–2014",
+      "company": "Oracle",
+      "role": "CX Apps Sales / Strategic Accounts",
+      "desc": "Roadmaps de transformación, ECM/WCM, España y Portugal.",
+      "icon": "🏗️"
+    },
+    {
+      "period": "2001–2007",
+      "company": "Informática El Corte Inglés",
+      "role": "eBusiness Director",
+      "desc": "12 equipos, 138 profesionales, portfolio ECM/WCM/eCommerce.",
+      "icon": "👥"
+    }
+  ],
+  "achievements": [
+    {
+      "metric": "3x",
+      "text": "Incremento de ventas (Unidad Editorial)"
+    },
+    {
+      "metric": "4.5 años",
+      "text": "LTV medio (Unidad Editorial)"
+    },
+    {
+      "metric": "138",
+      "text": "Tamaño máximo de equipo gestionado"
+    },
+    {
+      "metric": "49",
+      "text": "Equipo EX global (Prosegur)"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Customer Experience",
+      "level": 95
+    },
+    {
+      "name": "Transformación Digital",
+      "level": 95
+    },
+    {
+      "name": "Liderazgo de equipos",
+      "level": 90
+    },
+    {
+      "name": "CRM 360 (Salesforce)",
+      "level": 95
+    },
+    {
+      "name": "AI/ML",
+      "level": 85
+    }
+  ],
+  "career_years": {
+    "labels": [
+      "Desarrollo & Sistemas",
+      "Vendors (Oracle, SF)",
+      "Cliente final (Transformación)"
+    ],
+    "values": [
+      17,
+      10,
+      8
+    ]
+  },
+  "radar": {
+    "labels": [
+      "Liderazgo Técnico",
+      "Customer Experience",
+      "Transformación Digital",
+      "Gestión de Equipos",
+      "Sales & Consulting",
+      "Innovación de Procesos"
+    ],
+    "values": [
+      9,
+      10,
+      10,
+      9,
+      8,
+      9
+    ]
+  }
+}

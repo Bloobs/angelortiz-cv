@@ -17,6 +17,7 @@
         <a href="#carrera">Carrera</a>
         <a href="#logros">Logros</a>
         <a href="#habilidades">Habilidades</a>
+        <a href="#graficos">Gráficos</a>
         <a href="#contacto">Contacto</a>
       </nav>
     </div>
@@ -25,81 +26,59 @@
   <main>
     <section id="inicio" class="hero container">
       <div class="hero-left">
-        <h1>Ángel Ortiz Pérez</h1>
-        <h2>Senior Technology Leader & Digital Transformation Expert</h2>
-        <p>30+ años impulsando Experiencia de Cliente e Innovación Digital</p>
+        <h1 id="name">Ángel Ortiz Pérez</h1>
+        <h2 id="title">Senior Technology Leader & Digital Transformation Expert</h2>
+        <p id="subtitle">30+ años impulsando Experiencia de Cliente e Innovación Digital</p>
         <div class="contact">
-          <a href="mailto:angel.ortizp@gmail.com">angel.ortizp@gmail.com</a>
+          <a id="emailLink" href="mailto:angel.ortizp@gmail.com">angel.ortizp@gmail.com</a>
           <span>·</span>
-          <a href="https://www.linkedin.com/in/angelortiz/" target="_blank" rel="noopener">LinkedIn</a>
+          <a id="linkedinLink" href="https://www.linkedin.com/in/angelortiz/" target="_blank" rel="noopener">LinkedIn</a>
           <span>·</span>
-          <span>Madrid, España</span>
+          <span id="location">Madrid, España</span>
         </div>
       </div>
       <div class="hero-right">
-        <img src="img/IMG_4897.JPG" alt="Foto profesional de Ángel Ortiz Pérez" class="avatar" />
+        <img src="img/angel-ortiz.jpg" alt="Foto profesional de Ángel Ortiz Pérez" class="avatar" />
       </div>
     </section>
 
     <section id="resumen" class="container section">
       <h3>Resumen Ejecutivo</h3>
-      <p>Profesional con más de 30 años liderando estrategias de Customer Experience (CX) y Transformación Digital en clientes finales y software vendors (Oracle, Salesforce). Enfocado en ROI, eficiencia operativa y mejora de experiencia de clientes y empleados.</p>
+      <p id="summary">Profesional con más de 30 años liderando estrategias de Customer Experience (CX) y Transformación Digital...</p>
     </section>
 
     <section id="carrera" class="container section">
       <h3>Trayectoria</h3>
-      <ul class="timeline">
-        <li>
-          <div class="time">2022–Presente</div>
-          <div class="role">Senior Account Executive · Salesforce</div>
-          <div class="desc">CRM 360, IA generativa (Agentforce), estrategia de valor para grandes cuentas.</div>
-        </li>
-        <li>
-          <div class="time">2018–2022</div>
-          <div class="role">Employee Experience Officer · Prosegur</div>
-          <div class="desc">Liderazgo global EX (49 personas), IA en recruiting, dashboards eNPS.</div>
-        </li>
-        <li>
-          <div class="time">2014–2018</div>
-          <div class="role">Customer Experience Officer · Unidad Editorial</div>
-          <div class="desc">3x ventas, LTV 4.5 años, multicanal, Big Data + NBA.</div>
-        </li>
-        <li>
-          <div class="time">2007–2014</div>
-          <div class="role">CX Apps Sales / Strategic Accounts · Oracle</div>
-          <div class="desc">Roadmaps de transformación, ECM/WCM, España y Portugal.</div>
-        </li>
-        <li>
-          <div class="time">2001–2007</div>
-          <div class="role">eBusiness Director · Informática El Corte Inglés</div>
-          <div class="desc">12 equipos, 138 profesionales, portfolio ECM/WCM/eCommerce.</div>
-        </li>
-      </ul>
+      <div class="timeline" id="timeline"></div>
     </section>
 
     <section id="logros" class="container section">
       <h3>Logros Clave</h3>
-      <div class="cards">
-        <div class="card"><div class="kpi">3x</div><div>Incremento de ventas (UE)</div></div>
-        <div class="card"><div class="kpi">4.5 años</div><div>LTV medio (UE)</div></div>
-        <div class="card"><div class="kpi">138</div><div>Tamaño máximo de equipo gestionado</div></div>
-        <div class="card"><div class="kpi">49</div><div>Equipo EX global (Prosegur)</div></div>
-      </div>
+      <div class="cards" id="achievements"></div>
     </section>
 
     <section id="habilidades" class="container section">
       <h3>Habilidades</h3>
-      <ul class="skills">
-        <li><strong>Customer Experience</strong> · Journey design, NPS/retención</li>
-        <li><strong>Transformación Digital</strong> · Cloud, IA/ML, Automatización</li>
-        <li><strong>Liderazgo</strong> · 5–138 personas, cambio cultural</li>
-        <li><strong>CRM 360</strong> · Salesforce Marketing/Sales/Service</li>
-      </ul>
+      <div class="skills" id="skills"></div>
+    </section>
+
+    <section id="graficos" class="container section">
+      <h3>Gráficos Dinámicos</h3>
+      <div class="charts">
+        <div class="chart-card">
+          <h4>Timeline de Carrera</h4>
+          <canvas id="careerChart" width="600" height="320"></canvas>
+        </div>
+        <div class="chart-card">
+          <h4>Matriz de Competencias</h4>
+          <canvas id="skillsRadar" width="600" height="320"></canvas>
+        </div>
+      </div>
     </section>
 
     <section id="contacto" class="container section">
       <h3>Contacto</h3>
-      <p>Correo: <a href="mailto:angel.ortizp@gmail.com">angel.ortizp@gmail.com</a> · Madrid, España</p>
+      <p>Correo: <a id="emailLink2" href="mailto:angel.ortizp@gmail.com">angel.ortizp@gmail.com</a> · <span id="location2">Madrid, España</span></p>
     </section>
   </main>
 
@@ -107,6 +86,7 @@
     <div class="container">© 2025 Ángel Ortiz Pérez</div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>
