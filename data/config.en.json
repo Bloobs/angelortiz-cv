@@ -1,0 +1,167 @@
+{
+  "personal": {
+    "name": "Ángel Ortiz Pérez",
+    "title": "Senior Technology Leader & Digital Transformation Expert",
+    "subtitle": "30+ years driving Customer Experience and Digital Innovation",
+    "email": "angel.ortizp@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/angelortiz/",
+    "location": "Madrid, Spain",
+    "cv_pdf": "docs/Angel_Ortiz_CV.pdf"
+  },
+  "stats": [
+    {
+      "value": "30+",
+      "label": "Years in Tech"
+    },
+    {
+      "value": "138",
+      "label": "People led"
+    },
+    {
+      "value": "3x",
+      "label": "Sales (UE)"
+    }
+  ],
+  "summary": [
+    "Results-driven leader with three decades steering Customer Experience (CX) and Digital Transformation for top-tier enterprises and software vendors (Oracle, Salesforce). Skilled at translating business challenges into measurable technology roadmaps, optimizing customer and employee journeys, and delivering proven ROI in every project.",
+    "End-to-end expertise across strategy, full-stack orchestration (Marketing, Sales, Service), advanced analytics, automation, and AI adoption (predictive and generative). Track record of impact: tripled sales, extended LTV to 4.5 years, and improved key KPIs (NPS/eNPS/Churn)."
+  ],
+  "phases": [
+    {
+      "title": "Development & Systems",
+      "duration": "1990–2007 · 17 years",
+      "text": "Strong technical foundation: SCADA, WCM, eCommerce, enterprise platforms."
+    },
+    {
+      "title": "Software Vendors",
+      "duration": "2007–2014 · 2022–today · 10+ years",
+      "text": "Oracle & Salesforce: strategic consulting and CRM/ECM adoption at scale."
+    },
+    {
+      "title": "End Customer",
+      "duration": "2014–2022 · 8 years",
+      "text": "Unidad Editorial & Prosegur: digital transformation with business KPIs."
+    }
+  ],
+  "timeline": [
+    {
+      "period": "2022–Present",
+      "role": "Senior Account Executive",
+      "company": "Salesforce",
+      "desc": "CRM 360, Generative AI (Agentforce), value strategy",
+      "color": "#1e3a8a"
+    },
+    {
+      "period": "2018–2022",
+      "role": "Employee Experience Officer",
+      "company": "Prosegur",
+      "desc": "Global EX (49), AI recruiting, eNPS dashboards",
+      "color": "#3b82f6"
+    },
+    {
+      "period": "2014–2018",
+      "role": "Customer Experience Officer",
+      "company": "Unidad Editorial",
+      "desc": "3x sales, 4.5-year LTV, omnichannel, NBA",
+      "color": "#60a5fa"
+    },
+    {
+      "period": "2007–2014",
+      "role": "CX Apps Sales / Strategic Accounts",
+      "company": "Oracle",
+      "desc": "Roadmaps, ECM/WCM, Iberia",
+      "color": "#0ea5e9"
+    },
+    {
+      "period": "2001–2007",
+      "role": "eBusiness Director",
+      "company": "Informática El Corte Inglés",
+      "desc": "12 teams, 138 professionals",
+      "color": "#22d3ee"
+    }
+  ],
+  "achievements": [
+    {
+      "metric": "3x",
+      "text": "Sales increase (Unidad Editorial)"
+    },
+    {
+      "metric": "4.5 yrs",
+      "text": "Average LTV (Unidad Editorial)"
+    },
+    {
+      "metric": "138",
+      "text": "Largest team led"
+    },
+    {
+      "metric": "49",
+      "text": "Global EX team (Prosegur)"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Customer Experience",
+      "level": 95
+    },
+    {
+      "name": "Digital Transformation",
+      "level": 95
+    },
+    {
+      "name": "Team Leadership",
+      "level": 90
+    },
+    {
+      "name": "CRM 360 (Salesforce)",
+      "level": 95
+    },
+    {
+      "name": "AI/ML",
+      "level": 85
+    }
+  ],
+  "awards": [
+    {
+      "icon": "🏆",
+      "text": "Platinum Contact Center Award (2016 & 2017) · Best Multichannel Deployment"
+    },
+    {
+      "icon": "🎖️",
+      "text": "McKinsey StartUp 2000 Award · Silice Computers"
+    },
+    {
+      "icon": "🎓",
+      "text": "Adjunct Professor at IE Business School, UCM, Instituto Cajasol (2017–)"
+    }
+  ],
+  "career_years": {
+    "labels": [
+      "Development & Systems",
+      "Vendors (Oracle, SF)",
+      "End Customer"
+    ],
+    "values": [
+      17,
+      10,
+      8
+    ]
+  },
+  "radar": {
+    "labels": [
+      "Technical Leadership",
+      "Customer Experience",
+      "Digital Transformation",
+      "People Management",
+      "Sales & Consulting",
+      "Process Innovation"
+    ],
+    "values": [
+      9,
+      10,
+      10,
+      9,
+      8,
+      9
+    ]
+  }
+}

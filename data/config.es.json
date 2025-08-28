@@ -1,0 +1,167 @@
+{
+  "personal": {
+    "name": "Ángel Ortiz Pérez",
+    "title": "Senior Technology Leader & Digital Transformation Expert",
+    "subtitle": "30+ años impulsando Experiencia de Cliente e Innovación Digital",
+    "email": "angel.ortizp@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/angelortiz/",
+    "location": "Madrid, España",
+    "cv_pdf": "docs/Angel_Ortiz_CV.pdf"
+  },
+  "stats": [
+    {
+      "value": "30+",
+      "label": "Años en tecnología"
+    },
+    {
+      "value": "138",
+      "label": "Personas lideradas"
+    },
+    {
+      "value": "3x",
+      "label": "Ventas (UE)"
+    }
+  ],
+  "summary": [
+    "Profesional orientado a resultados con tres décadas liderando estrategias de Customer Experience (CX) y Transformación Digital en compañías líderes y fabricantes de software de primer nivel (Oracle, Salesforce). Experto en convertir retos de negocio en hojas de ruta tecnológicas medibles, optimizando journeys de clientes y empleados y entregando ROI probado en cada proyecto.",
+    "Experiencia completa de ciclo: diseño de estrategia, orquestación tecnológica end‑to‑end (Marketing, Ventas, Servicio), analítica avanzada, automatización y adopción de IA (predictiva y generativa). Historial de impacto: triplicar ventas, extender LTV a 4,5 años y mejorar KPIs clave (NPS/eNPS/Churn)."
+  ],
+  "phases": [
+    {
+      "title": "Desarrollo & Sistemas",
+      "duration": "1990–2007 · 17 años",
+      "text": "Base técnica: SCADA, WCM, eCommerce y plataformas empresariales."
+    },
+    {
+      "title": "Software Vendors",
+      "duration": "2007–2014 · 2022–hoy · 10+ años",
+      "text": "Oracle y Salesforce: consultoría estratégica y adopción de CRM/ECM a escala."
+    },
+    {
+      "title": "Cliente Final",
+      "duration": "2014–2022 · 8 años",
+      "text": "Unidad Editorial y Prosegur: transformación con KPIs de negocio."
+    }
+  ],
+  "timeline": [
+    {
+      "period": "2022–Presente",
+      "role": "Senior Account Executive",
+      "company": "Salesforce",
+      "desc": "CRM 360, IA generativa (Agentforce), estrategia de valor",
+      "color": "#1e3a8a"
+    },
+    {
+      "period": "2018–2022",
+      "role": "Employee Experience Officer",
+      "company": "Prosegur",
+      "desc": "EX global (49), IA recruiting, dashboards eNPS",
+      "color": "#3b82f6"
+    },
+    {
+      "period": "2014–2018",
+      "role": "Customer Experience Officer",
+      "company": "Unidad Editorial",
+      "desc": "3x ventas, LTV 4.5 años, multicanal, NBA",
+      "color": "#60a5fa"
+    },
+    {
+      "period": "2007–2014",
+      "role": "CX Apps Sales / Strategic Accounts",
+      "company": "Oracle",
+      "desc": "Roadmaps, ECM/WCM, Iberia",
+      "color": "#0ea5e9"
+    },
+    {
+      "period": "2001–2007",
+      "role": "eBusiness Director",
+      "company": "Informática El Corte Inglés",
+      "desc": "12 equipos, 138 profesionales",
+      "color": "#22d3ee"
+    }
+  ],
+  "achievements": [
+    {
+      "metric": "3x",
+      "text": "Incremento de ventas (Unidad Editorial)"
+    },
+    {
+      "metric": "4.5 años",
+      "text": "Extensión del LTV medio (Unidad Editorial)"
+    },
+    {
+      "metric": "138",
+      "text": "Tamaño máximo de equipo gestionado"
+    },
+    {
+      "metric": "49",
+      "text": "Equipo EX global (Prosegur)"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Customer Experience",
+      "level": 95
+    },
+    {
+      "name": "Transformación Digital",
+      "level": 95
+    },
+    {
+      "name": "Liderazgo de equipos",
+      "level": 90
+    },
+    {
+      "name": "CRM 360 (Salesforce)",
+      "level": 95
+    },
+    {
+      "name": "AI/ML",
+      "level": 85
+    }
+  ],
+  "awards": [
+    {
+      "icon": "🏆",
+      "text": "Platinum Contact Center Award (2016 & 2017) · Mejor despliegue multicanal"
+    },
+    {
+      "icon": "🎖️",
+      "text": "McKinsey StartUp 2000 Award · Silice Computers"
+    },
+    {
+      "icon": "🎓",
+      "text": "Profesor en IE Business School, UCM, Instituto Cajasol (2017–)"
+    }
+  ],
+  "career_years": {
+    "labels": [
+      "Desarrollo & Sistemas",
+      "Vendors (Oracle, SF)",
+      "Cliente final"
+    ],
+    "values": [
+      17,
+      10,
+      8
+    ]
+  },
+  "radar": {
+    "labels": [
+      "Liderazgo Técnico",
+      "Customer Experience",
+      "Transformación Digital",
+      "Gestión de Equipos",
+      "Sales & Consulting",
+      "Innovación"
+    ],
+    "values": [
+      9,
+      10,
+      10,
+      9,
+      8,
+      9
+    ]
+  }
+}
