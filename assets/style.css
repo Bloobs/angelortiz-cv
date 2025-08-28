@@ -131,9 +131,20 @@ body::before{
 
 /* Premios */
 .awards-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; }
-.award{ display:flex; gap:14px; align-items:flex-start; border:1px solid #e5e7eb; border-radius:12px; padding:16px; background:#fff; box-shadow:0 6px 16px rgba(0,0,0,.04); }
+.award { display:flex; gap:14px; align-items:flex-start; border:1px solid #e5e7eb; border-radius:12px; padding:16px; background:#fff; box-shadow:0 6px 16px rgba(0,0,0,.04); }
 .award .icon{ font-size:22px; }
-.award .text{ color:#475569; }
+.award .content{ flex:1; }
+.award .award-title{ margin:0 0 6px; font-weight:800; color:#0f172a; }
+.award .award-title a{ color:inherit; text-decoration:none; }
+.award .award-title a:hover{ text-decoration:underline; }
+.award .text{ color:#475569; margin-bottom:10px; }
+.media-box{ margin-top:6px; }
+.media{ display:block; width:100%; max-width:420px; border-radius:10px; border:1px solid #e5e7eb; box-shadow:0 6px 16px rgba(0,0,0,.04); }
+.media-link{ display:inline-block; line-height:0; }
+@media (max-width:720px){
+  .media{ max-width:100%; }
+}
+
 
 /* Gráficos horizontales */
 .charts{ display:flex; gap:24px; overflow-x:auto; padding-bottom:8px; }
