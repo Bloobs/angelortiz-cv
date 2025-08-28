@@ -123,15 +123,23 @@
   "awards": [
     {
       "icon": "🏆",
-      "text": "Platinum Contact Center Award (2016 & 2017) · Mejor despliegue multicanal"
+      "title": "Platinum Contact Center Award 2017",
+      "text": "Mejor despliegue multicanal (Unidad Editorial).",
+      "image": "premio-contact-center-2017.jpg",
+      "link": "https://www.contactcenter.es/premios" 
     },
     {
-      "icon": "🎖️",
-      "text": "McKinsey StartUp 2000 Award · Silice Computers"
+      "icon": "🎥",
+      "title": "Caso Oracle Service Cloud · Testimonial",
+      "text": "Video sobre la transformación digital en Unidad Editorial.",
+      "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
-      "icon": "🎓",
-      "text": "Profesor en IE Business School, UCM, Instituto Cajasol (2017–)"
+      "icon": "📰",
+      "title": "Ebolution · eCommerce Strategy",
+      "text": "Testimonio sobre iniciativas de suscripción y ventas.",
+      "image": "ebolution-caso.jpg",
+      "link": "https://www.ebolution.com/caso-unidad-editorial"
     }
   ],
   "career_years": {
