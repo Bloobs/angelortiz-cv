@@ -26,7 +26,19 @@
 .skill-header{display:flex;justify-content:space-between;margin-bottom:8px}
 .bar{background:#f3f4f6;border-radius:999px;height:10px;overflow:hidden}
 .bar span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--primary),#3b82f6);border-radius:999px;transition:width 1.2s ease}
-.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px}
-.chart-card{border:1px solid #e5e7eb;border-radius:12px;padding:16px;background:#fff;box-shadow:0 6px 16px rgba(0,0,0,.04)}
+
+/* Botón CV */
+.btn-cv{background:var(--primary);color:#fff;padding:6px 12px;border-radius:8px;text-decoration:none;font-weight:600}
+.btn-cv:hover{background:#163079}
+
+/* Gráficos en horizontal a ancho completo */
+.charts{display:flex;gap:24px;overflow-x:auto;padding-bottom:8px}
+.chart-card{min-width:600px;flex:1}
+@media (max-width:1200px){.chart-card{min-width:520px}}
+@media (max-width:768px){.chart-card{min-width:420px}}
+
+/* Lienzos a ancho completo y altura consistente */
+.chart-card canvas{width:100% !important;height:360px !important}
+
 .footer{border-top:1px solid #e5e7eb;padding:24px 0;text-align:center;color:#6b7280;margin-top:24px}
 @media(max-width:860px){.hero{grid-template-columns:1fr}.avatar{margin:0 auto}}
