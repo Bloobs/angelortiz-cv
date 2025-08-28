@@ -8,92 +8,94 @@
   <meta name="description" content="Ángel Ortiz Pérez - Senior Technology Leader & Digital Transformation Expert" />
 </head>
 <body>
-  <header class="nav">
-    <div class="container nav-wrap">
-      <div class="brand">Ángel Ortiz</div>
+  <div class="page">
+    <header class="nav">
+      <div class="container nav-wrap">
+        <div class="brand">Ángel Ortiz</div>
+    
+        <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+    
+        <nav class="nav-menu">
+          <a href="#inicio">Inicio</a>
+          <a href="#resumen">Resumen</a>
+          <a href="#carrera">Carrera</a>
+          <a href="#logros">Logros</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#graficos">Gráficos</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
   
-      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+    <main>
+      <section id="inicio" class="hero container">
+        <div class="hero-left">
+          <h1 id="name">Ángel Ortiz Pérez</h1>
+          <h2 id="title">Senior Technology Leader & Digital Transformation Expert</h2>
+          <p id="subtitle">30+ años impulsando Experiencia de Cliente e Innovación Digital</p>
+          <div class="contact">
+            <a id="emailLink" href="mailto:angel.ortizp@gmail.com">angel.ortizp@gmail.com</a>
+            <span>·</span>
+            <a id="linkedinLink" href="https://www.linkedin.com/in/angelortiz/" target="_blank" rel="noopener">LinkedIn</a>
+            <span>·</span>
+            <a id="downloadCV" class="btn-cv" href="docs/Angel_Ortiz_CV.pdf" target="_blank" rel="noopener" download>Descargar CV (PDF)</a>
+            <span>·</span>
+            <span id="location">Madrid, España</span>
+          </div>        
+        </div>
+        <div class="hero-right">
+          <img src="img/angel-ortiz.jpg" alt="Foto profesional de Ángel Ortiz Pérez" class="avatar" />
+        </div>
+      </section>
   
-      <nav class="nav-menu">
-        <a href="#inicio">Inicio</a>
-        <a href="#resumen">Resumen</a>
-        <a href="#carrera">Carrera</a>
-        <a href="#logros">Logros</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#graficos">Gráficos</a>
-        <a href="#contacto">Contacto</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section id="inicio" class="hero container">
-      <div class="hero-left">
-        <h1 id="name">Ángel Ortiz Pérez</h1>
-        <h2 id="title">Senior Technology Leader & Digital Transformation Expert</h2>
-        <p id="subtitle">30+ años impulsando Experiencia de Cliente e Innovación Digital</p>
-        <div class="contact">
-          <a id="emailLink" href="mailto:angel.ortizp@gmail.com">angel.ortizp@gmail.com</a>
-          <span>·</span>
-          <a id="linkedinLink" href="https://www.linkedin.com/in/angelortiz/" target="_blank" rel="noopener">LinkedIn</a>
-          <span>·</span>
-          <a id="downloadCV" class="btn-cv" href="docs/Angel_Ortiz_CV.pdf" target="_blank" rel="noopener" download>Descargar CV (PDF)</a>
-          <span>·</span>
-          <span id="location">Madrid, España</span>
-        </div>        
-      </div>
-      <div class="hero-right">
-        <img src="img/angel-ortiz.jpg" alt="Foto profesional de Ángel Ortiz Pérez" class="avatar" />
-      </div>
-    </section>
-
-    <section id="resumen" class="container section">
-      <h3>Resumen Ejecutivo</h3>
-      <p id="summary">Profesional con más de 30 años liderando estrategias de Customer Experience (CX) y Transformación Digital...</p>
-    </section>
-
-    <section id="carrera" class="container section">
-      <h3>Trayectoria</h3>
-      <div class="timeline" id="timeline"></div>
-    </section>
-
-    <section id="logros" class="container section">
-      <h3>Logros Clave</h3>
-      <div class="cards" id="achievements"></div>
-    </section>
-
-    <section id="habilidades" class="container section">
-      <h3>Habilidades</h3>
-      <div class="skills" id="skills"></div>
-    </section>
-
-    <section id="graficos" class="container section">
-      <h3>Gráficos Dinámicos</h3>
-      <div class="charts">
-        <div class="chart-card">
-          <h4>Timeline de Carrera</h4>
-          <canvas id="careerChart" width="600" height="320"></canvas>
+      <section id="resumen" class="container section">
+        <h3>Resumen Ejecutivo</h3>
+        <p id="summary">Profesional con más de 30 años liderando estrategias de Customer Experience (CX) y Transformación Digital...</p>
+      </section>
+  
+      <section id="carrera" class="container section">
+        <h3>Trayectoria</h3>
+        <div class="timeline" id="timeline"></div>
+      </section>
+  
+      <section id="logros" class="container section">
+        <h3>Logros Clave</h3>
+        <div class="cards" id="achievements"></div>
+      </section>
+  
+      <section id="habilidades" class="container section">
+        <h3>Habilidades</h3>
+        <div class="skills" id="skills"></div>
+      </section>
+  
+      <section id="graficos" class="container section">
+        <h3>Gráficos Dinámicos</h3>
+        <div class="charts">
+          <div class="chart-card">
+            <h4>Timeline de Carrera</h4>
+            <canvas id="careerChart" width="600" height="320"></canvas>
+          </div>
+          <div class="chart-card">
+            <h4>Matriz de Competencias</h4>
+            <canvas id="skillsRadar" width="600" height="320"></canvas>
+          </div>
         </div>
-        <div class="chart-card">
-          <h4>Matriz de Competencias</h4>
-          <canvas id="skillsRadar" width="600" height="320"></canvas>
-        </div>
-      </div>
-    </section>
-
-    <section id="contacto" class="container section">
-      <h3>Contacto</h3>
-      <p>Correo: <a id="emailLink2" href="mailto:angel.ortizp@gmail.com">angel.ortizp@gmail.com</a> · <span id="location2">Madrid, España</span></p>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container">© 2025 Ángel Ortiz Pérez</div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
-  <script src="assets/app.js"></script>
+      </section>
+  
+      <section id="contacto" class="container section">
+        <h3>Contacto</h3>
+        <p>Correo: <a id="emailLink2" href="mailto:angel.ortizp@gmail.com">angel.ortizp@gmail.com</a> · <span id="location2">Madrid, España</span></p>
+      </section>
+    </main>
+  
+    <footer class="footer">
+      <div class="container">© 2025 Ángel Ortiz Pérez</div>
+    </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+    <script src="assets/app.js"></script>
+  </div>
 </body>
 </html>
