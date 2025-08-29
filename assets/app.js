@@ -101,7 +101,29 @@
     }catch(e){ err('renderAchievements error', e); }
   }
 
-  function getYouTubeId(url){ const m=url?.match(/(?:youtube\\.com\\/watch\\?v=|youtu\\.be\\/)([A-Za-z0-9_-]{6,})/); return m?m[1]:null; }
+  function getYouTubeId(url){
+  try{
+    if(!url) return null;
+    // URL API: usa la clase URL para parsear de forma robusta
+    const u = new URL(url);
+    if (u.hostname.includes('youtu.be')) {
+      return u.pathname.slice(1) || null; // /VIDEOID
+    }
+    if (u.hostname.includes('youtube.com')) {
+      // watch?v=ID o embed/ID
+      const v = u.searchParams.get('v');
+      if (v) return v;
+      const m = u.pathname.match(/\\/embed\\/([A-Za-z0-9_-]{6,})/);
+      if (m) return m[1];
+    }
+    // Fallback: última secuencia válida
+    const m2 = String(url).match(/[A-Za-z0-9_-]{6,}$/);
+    return m2 ? m2 : null;
+  }catch(e){
+    console.warn('[APP] getYouTubeId error', e);
+    return null;
+  }
+}
 
   function renderAwards(cfg){
     try{
