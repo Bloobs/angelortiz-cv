@@ -165,20 +165,52 @@
     }catch(e){ err('renderSkills error', e); }
   }
 
-  function renderCharts(cfg){
-    try{
-      if(!window.Chart){ warn('Chart.js no disponible'); return; }
-      const c1 = qs('careerChart');
-      if(c1){
-        new Chart(c1,{type:'bar',data:{labels:cfg?.career_years?.labels||[],datasets:[{label:'Years',data:cfg?.career_years?.values||[],backgroundColor:['#1e3a8a','#3b82f6','#60a5fa']}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,ticks:{stepSize:2}}}}});
+function renderCharts(cfg){
+  try{
+    if(!window.Chart){ console.warn('[APP] Chart.js no disponible'); return; }
+
+    const makeChart = (canvasId, type, data, options) => {
+      const c = document.getElementById(canvasId);
+      if(!c){ console.warn('[APP] canvas no encontrado', canvasId); return; }
+      // Garantizar altura visible
+      const parent = c.parentElement;
+      if(parent && getComputedStyle(parent).position === 'static'){
+        parent.style.position = 'relative';
       }
-      const c2 = qs('skillsRadar');
-      if(c2){
-        new Chart(c2,{type:'radar',data:{labels:cfg?.radar?.labels||[],datasets:[{label:'Level',data:cfg?.radar?.values||[],borderColor:'#1e3a8a',backgroundColor:'rgba(30,58,138,0.2)',pointBackgroundColor:'#1e3a8a'}]},options:{responsive:true,maintainAspectRatio:false,scales:{r:{suggestedMin:0,suggestedMax:10,ticks:{stepSize:2}}}}});
+      // Si altura computada es 0, forzar altura por si el layout aún no la ha dado
+      const h = c.clientHeight || c.offsetHeight;
+      if(!h){
+        c.style.height = '360px';
       }
-      log('renderCharts OK');
-    }catch(e){ err('renderCharts error', e); }
+      new Chart(c, { type, data, options });
+      console.log('[APP] Chart OK', canvasId);
+    };
+
+    makeChart('careerChart', 'bar', {
+      labels: cfg.career_years.labels,
+      datasets: [{ label:'Years', data: cfg.career_years.values,
+        backgroundColor:['#1e3a8a','#3b82f6','#60a5fa'] }]
+    }, {
+      responsive:true, maintainAspectRatio:false,
+      plugins:{ legend:{display:false} },
+      scales:{ y:{ beginAtZero:true, ticks:{ stepSize:2 } } }
+    });
+
+    makeChart('skillsRadar', 'radar', {
+      labels: cfg.radar.labels,
+      datasets: [{ label:'Level', data: cfg.radar.values,
+        borderColor:'#1e3a8a', backgroundColor:'rgba(30,58,138,0.2)',
+        pointBackgroundColor:'#1e3a8a'}]
+    }, {
+      responsive:true, maintainAspectRatio:false,
+      scales:{ r:{ suggestedMin:0, suggestedMax:10, ticks:{ stepSize:2 } } }
+    });
+
+  }catch(e){
+    console.error('[APP] renderCharts error', e);
   }
+}
+
 
   async function applyLanguage(lang){
     log('applyLanguage start', lang);
