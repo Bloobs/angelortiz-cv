@@ -104,27 +104,30 @@
   function getYouTubeId(url){
   try{
     if(!url) return null;
-    // URL API: usa la clase URL para parsear de forma robusta
     const u = new URL(url);
-    if (u.hostname.includes('youtu.be')) {
-      return u.pathname.slice(1) || null; // /VIDEOID
+    const host = u.hostname.replace(/^www\./,'');
+    if (host === 'youtu.be') {
+      // Ej: https://youtu.be/VIDEOID
+      const id = u.pathname.slice(1);
+      return id || null;
     }
-    if (u.hostname.includes('youtube.com')) {
-      // watch?v=ID o embed/ID
+    if (host === 'youtube.com' || host === 'm.youtube.com') {
+      // watch?v=ID
       const v = u.searchParams.get('v');
       if (v) return v;
-      const m = u.pathname.match(/\\/embed\\/([A-Za-z0-9_-]{6,})/);
-      if (m) return m[1];
+      // /embed/ID
+      const parts = u.pathname.split('/');
+      const i = parts.indexOf('embed');
+      if (i >= 0 && parts[i+1]) return parts[i+1];
     }
-    // Fallback: última secuencia válida
-    const m2 = String(url).match(/[A-Za-z0-9_-]{6,}$/);
-    return m2 ? m2 : null;
+    // Fallback: último segmento largo tipo ID
+    const tail = String(url).split(/[?#]/).split('/').pop();
+    return tail && /^[A-Za-z0-9_-]{6,}$/.test(tail) ? tail : null;
   }catch(e){
     console.warn('[APP] getYouTubeId error', e);
     return null;
   }
 }
-
   function renderAwards(cfg){
     try{
       const box = qs('awards'); if(!box) return; box.innerHTML='';
