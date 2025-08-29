@@ -18,6 +18,18 @@
       "label": "Personas lideradas"
     },
     {
+      "value": "+30",
+      "label": "Sistemas de Información desplegados"
+    },
+    {
+      "value": "Cliente 360º",
+      "label": "Marketing, Ventas, eComm, Service, Loyalty"
+    },
+    {
+      "value": "Empleado 360º",
+      "label": "Reclutamiento, Onboarding, Admon, Compensación, Formación"
+    },
+    {
       "value": "3x",
       "label": "Ventas"
     }
