@@ -31,7 +31,7 @@
     },
     {
       "value": "NPS, eNPS, LTV, %Churn",
-      "label": "KPIs de negocio en todos los proyectos"
+      "label": "KPIs de negocio y sus Dashboards en todos los proyectos"
     }
   ],
   "summary": [
@@ -81,14 +81,14 @@
       "period": "2007–2014",
       "role": "CX Apps Sales / Strategic Accounts",
       "company": "Oracle",
-      "desc": "Roadmaps, ECM/WCM, Iberia",
+      "desc": "Ventas de licencias y Consultoria, ECM/ WCM/ CRM / CX, Iberia",
       "color": "#0ea5e9"
     },
     {
       "period": "2001–2007",
       "role": "eBusiness Director",
       "company": "Informática El Corte Inglés",
-      "desc": "12 equipos, 138 profesionales",
+      "desc": "12 equipos, 138 profesionales. Implantaciones de proyectos para icex, telefonica, iberia, terra, comunidad de madrid, generalitat de cataluña, principado de asturias, El Corte Ingles",
       "color": "#22d3ee"
     },
     {
@@ -110,11 +110,11 @@
   "achievements": [
     {
       "metric": "3.8 Glassdoor",
-      "text": "De 3.0 a 3.8 de incremento en valoracion de empleados en Glassdoor (proyeccion profesional, conciliación y cultura y valores)"
+      "text": "Prosegur paso de 3.0 a 3.8 de incremento en valoracion de empleados en Glassdoor (proyeccion profesional, conciliación y cultura y valores)"
     },
     {
       "metric": "54 eNPS",
-      "text": "NPS de empleados medio en prosegur (175K empleados en 25 paises)"
+      "text": "NPS de empleados Prosegur (175K empleados en 25 paises)"
     },
     {
       "metric": "3x",
