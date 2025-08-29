@@ -19,7 +19,7 @@
     },
     {
       "value": "3x",
-      "label": "Ventas (UE)"
+      "label": "Ventas"
     }
   ],
   "summary": [
@@ -30,17 +30,17 @@
     {
       "title": "Desarrollo & Sistemas",
       "duration": "1990–2007 · 17 años",
-      "text": "Base técnica: SCADA, WCM, eCommerce y plataformas empresariales."
+      "text": "Base técnica: SCADA, WCM, ECM, eCommerce, CRM."
     },
     {
       "title": "Software Vendors",
       "duration": "2007–2014 · 2022–hoy · 10+ años",
-      "text": "Oracle y Salesforce: consultoría estratégica y adopción de CRM/ECM a escala."
+      "text": "Oracle y Salesforce: consultoría estratégica y adopción de CRM/ECM/WCM/eCommerce a escala."
     },
     {
       "title": "Cliente Final",
       "duration": "2014–2022 · 8 años",
-      "text": "Unidad Editorial y Prosegur: transformación con KPIs de negocio."
+      "text": "Unidad Editorial y Prosegur: Customer Experience, Employee Experience en proyectos de transforación digital con KPIs de negocio."
     }
   ],
   "timeline": [
@@ -79,8 +79,31 @@
       "desc": "12 equipos, 138 profesionales",
       "color": "#22d3ee"
     }
+    {
+      "period": "2000–2001",
+      "role": "Co-Founder",
+      "company": "Sílice Computers",
+      "desc": "CTO",
+      "color": "#22d3ee"
+    }
+    {
+      "period": "1990–2000",
+      "role": "Developer & Project Manager",
+      "company": "SAC, Eliop, Polar, Openbank, Visual Tools",
+      "desc": "Desarrollo C, C++, Pascal, java, BBDD Oracle",
+      "color": "#22d3ee"
+    }
+
   ],
   "achievements": [
+    {
+      "metric": "3.8 Glassdoor",
+      "text": "De 3.0 a 3.8 de incremento en valoracion de empleados en Glassdoor (proyeccion profesional, conciliación y cultura y valores)"
+    },
+    {
+      "metric": "54 eNPS",
+      "text": "NPS de empleados medio en prosegur (175K empleados en 25 paises)"
+    },
     {
       "metric": "3x",
       "text": "Incremento de ventas (Unidad Editorial)"
