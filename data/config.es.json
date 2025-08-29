@@ -31,7 +31,7 @@
     },
     {
       "value": "NPS, eNPS, LTV, %Churn",
-      "label": "Dashboards de negocio en todos los proyectos"
+      "label": "KPIs de negocio en todos los proyectos"
     }
   ],
   "summary": [
