@@ -181,6 +181,24 @@
     "title": "IESE Business School – University of Navarra",
     "image": "logo_iese.png",
     "text": "Business Plan Development, Seminar (2000)"
+  },
+  {
+    "icon": "🎓",
+    "title": "ie University",
+    "image": "logo_ie.png",
+    "text": "Profesor asociado Master Customer Experience (2017-2019)"
+  },
+  {
+    "icon": "🎓",
+    "title": "Universidad Complutense Madrid",
+    "image": "logo_ucm.png",
+    "text": "Profesor asociado Master Customer Experience (2021–2023)"
+  },
+  {
+    "icon": "🎓",
+    "title": "Instituto de estudios Cajasol",
+    "image": "logo_cajasol.png",
+    "text": "Profesor Asociado Master en gestión y Analítica Avanzada de datos, Big Data e IA (2025)"
   }
 ],
   "awards": [
