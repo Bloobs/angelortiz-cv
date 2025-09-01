@@ -113,11 +113,11 @@
 },
 {
 "metric": "54 eNPS",
-"text": "Employee NPS at Prosegur (175K employees across 25 countries)"
+"text": "Employee NPS at Prosegur (175K employees across 25 countries). Talent, Learning, Mobile App, HCM new systems in Cloud"
 },
 {
 "metric": "3x",
-"text": "New CX journey. Marketing, Sales and Service new systems in Cloud. Sales increase (Unidad Editorial)"
+"text": " Sales increase (Unidad Editorial). New CX journey. Marketing, Sales and Service new systems in Cloud."
 },
 {
 "metric": "4.5 years",
@@ -156,6 +156,10 @@
 {
 "name": "AI/ML",
 "level": 85
+},
+{
+"name": "Employee Experience",
+"level": 90
 }
 ],
 "awards": [
@@ -221,13 +225,15 @@
 "Digital Transformation",
 "Team Management",
 "Sales & Consulting",
-"Innovation"
+"Innovation",
+"Employee Experience"
 ],
 "values": [
 9,
 10,
 10,
 9,
+8,
 8,
 9
 ]
