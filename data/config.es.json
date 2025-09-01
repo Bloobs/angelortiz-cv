@@ -40,9 +40,9 @@
   ],
   "phases": [
     {
-      "title": "Desarrollo & Sistemas",
-      "duration": "1990–2007 · 17 años",
-      "text": "Base técnica: SCADA, WCM, ECM, eCommerce, CRM."
+      "title": "Cliente Final",
+      "duration": "2014–2022 · 8 años",
+      "text": "Unidad Editorial y Prosegur: Customer Experience, Employee Experience en proyectos de transforación digital con KPIs de negocio."
     },
     {
       "title": "Software Vendors",
@@ -50,9 +50,9 @@
       "text": "Oracle y Salesforce: consultoría estratégica y adopción de CRM/ ECM/ WCM/ eCommerce a escala."
     },
     {
-      "title": "Cliente Final",
-      "duration": "2014–2022 · 8 años",
-      "text": "Unidad Editorial y Prosegur: Customer Experience, Employee Experience en proyectos de transforación digital con KPIs de negocio."
+      "title": "Desarrollo & Sistemas",
+      "duration": "1990–2007 · 17 años",
+      "text": "Base técnica: SCADA, WCM, ECM, eCommerce, CRM."
     }
   ],
   "timeline": [
@@ -118,11 +118,11 @@
     },
     {
       "metric": "3x",
-      "text": "Incremento de ventas (Unidad Editorial)"
+      "text": "Diseño Viaje del Cliente. Sistemas en la nube para Marketing, Ventas, eCommerce y Atención al cliente. Incremento de ventas (Unidad Editorial)"
     },
     {
       "metric": "4.5 años",
-      "text": "Extensión del LTV medio (Unidad Editorial)"
+      "text": "Nuevo programa de fidelización. Extensión del LTV medio (Unidad Editorial)"
     },
     {
       "metric": "+30",
@@ -134,7 +134,7 @@
     },
     {
       "metric": "49",
-      "text": "Equipo EX global (Prosegur)"
+      "text": "Equipo EX global (Prosegur) en España, Argentina, Brasil y Alemania"
     }
   ],
   "skills": [
