@@ -204,7 +204,28 @@
 "text": "Testimonial on subscription and sales initiatives.",
 "image": "video-ue-ebolution.png",
 "link": "https://www.youtube.com/watch?v=h3Zrbv3qm6k"
-}
+},
+    {
+      "icon": "📰",
+      "title": "Encuentro Expansión Customer Experience",
+      "text": "Las empresas sitúan al usuario digital en el centro de su estrategia. (25-abr-2018) Microsoft, Seur, ING Bank, Atento, Telefónica, Ibercaja and econocom",
+      "image": "cx-expansion-1.png",
+      "link": "https://www.expansion.com/juridico/2018/04/25/5ae0476be2704e12428b45c6.html"
+    },
+    {
+      "icon": "📰",
+      "title": "Encuentro Expansión Customer Experience",
+      "text": "Las empresas apelan a la emoción para conquistar al cliente. (20-dic-2017) IKEA, Ibercaja, Iberdroila, Vodafone, Seur and Aramon",
+      "image": "cx-expansion-2.png",
+      "link": "https://www.expansion.com/directivos/2017/12/19/5a37e69c46163ff5418b45d4.html"
+    },
+    {
+      "icon": "📰",
+      "title": "Encuentro Expansión Customer Experience",
+      "text": "LLas empresas quieren colocar al cliente en el centro de sus decisiones. (16-nov-2016) Gas Natural, Ibercaja, National Nederlanden and Pompeii",
+      "image": "cx-expansion-3.png",
+      "link": "https://www.expansion.com/empresas/2016/11/16/582c1e19ca47411f228b4609.html"
+    }
 ],
 "career_years": {
 "labels": [
