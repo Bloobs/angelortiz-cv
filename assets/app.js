@@ -151,28 +151,56 @@
     }catch(e){ err('renderAwards error', e); }
   }
 
-  function renderEducation(cfg){
-    const box = document.getElementById('education'); if(!box) return;
-    box.innerHTML = '';
-    (cfg.education || []).forEach(e=>{
-      const wrap = document.createElement('div');
-      wrap.className = 'edu';
-  
-      const linked = (e.link||e.video) ? (s)=>`<a href="${(e.link||e.video)}" target="_blank" rel="noopener">${s}</a>` : (s)=>s;
-      const title = e.title ? `<h4 class="edu-title">${linked(e.title)}</h4>` : '';
-  
-      // Media opcional (igual que premios)
-      let mediaHtml = '';
-      if(e.image){
-        const src = e.image.startsWith('http') ? e.image : `img/${e.image}`;
-        mediaHtml = `<img class="media" src="${src}" alt="${e.title||'education'}" loading="lazy">`;
-      } else if(e.video){
-        // miniatura simple (opcional): si quieres, puedes reutilizar getYouTubeId y thumb
-        mediaHtml = '';
+// Utilidad para miniatura de YouTube (si quieres soportarlo)
+function ytId(url){
+  try{
+    const u = new URL(url);
+    const host = u.hostname.replace(/^www\./,'');
+    if(host === 'youtu.be'){ return u.pathname.slice(1) || null; }
+    if(host === 'youtube.com' || host === 'm.youtube.com'){
+      const v = u.searchParams.get('v'); if(v) return v;
+      const segs = u.pathname.split('/'); const i = segs.indexOf('embed');
+      if(i >= 0 && segs[i+1]) return segs[i+1];
+    }
+  }catch(e){}
+  return null;
+}
+
+function renderEducation(cfg){
+  const box = document.getElementById('education'); if(!box) return;
+  box.innerHTML = '';
+  (cfg.education || []).forEach(e=>{
+    const wrap = document.createElement('div');
+    wrap.className = 'edu';
+
+    const linked = (e.link||e.video) ? (s)=>`<a href="${(e.link||e.video)}" target="_blank" rel="noopener">${s}</a>` : (s)=>s;
+    const title = e.title ? `<h4 class="edu-title">${linked(e.title)}</h4>` : '';
+
+    // Logo a la izquierda (si hay image)
+    const logoHtml = e.image
+      ? `<div class="edu-logo">
+           <img src="${e.image.startsWith('http') ? e.image : `img/${e.image}`}"
+                alt="${e.title || 'education logo'}" loading="lazy">
+         </div>`
+      : '';
+
+    // Miniatura a ancho de tarjeta cuando haya link:
+    // - Preferencia 1: e.preview (URL de imagen que añadas en el JSON)
+    // - Preferencia 2: si el link es YouTube, usar thumbnail de YouTube
+    let wideThumb = '';
+    if(e.link){
+      let thumbUrl = e.preview || '';
+      if(!thumbUrl){
+        const id = ytId(e.link);
+        if(id){ thumbUrl = `https://img.youtube.com/vi/${id}/hqdefault.jpg`; }
       }
-      if(mediaHtml && (e.video||e.link)){
-        mediaHtml = `<a class="media-link" href="${(e.video||e.link)}" target="_blank" rel="noopener">${mediaHtml}</a>`;
+      if(thumbUrl){
+        wideThumb = `
+          <a class="edu-linkwide" href="${e.link}" target="_blank" rel="noopener">
+            <img src="${thumbUrl}" alt="${e.title || 'link preview'}" loading="lazy">
+          </a>`;
       }
+    }
 
     wrap.innerHTML = `
       <div class="head">
@@ -180,23 +208,17 @@
         ${title}
       </div>
       <div class="edu-row">
-        ${e.image
-          ? `<div class="edu-logo">
-               <img src="${e.image.startsWith('http') ? e.image : `img/${e.image}`}"
-                    alt="${e.title || 'education logo'}" loading="lazy">
-             </div>`
-          : ''
-        }
+        ${logoHtml}
         <div class="edu-body">
           <div class="text">${e.text || ''}</div>
-          ${mediaHtml && !e.image ? `<div class="media-box">${mediaHtml}</div>` : ''}
         </div>
       </div>
+      ${wideThumb}
     `;
-      box.appendChild(wrap);
-    });
-  }
-
+    box.appendChild(wrap);
+  });
+}
+  
   function renderSkills(cfg){
     try{
       const box = qs('skills'); if(!box) return; box.innerHTML='';
