@@ -157,6 +157,10 @@
     {
       "name": "AI/ML",
       "level": 85
+    },
+    {
+      "name": "Employee Experience",
+      "level": 90
     }
   ],
   "awards": [
@@ -222,13 +226,15 @@
       "Transformación Digital",
       "Gestión de Equipos",
       "Sales & Consulting",
-      "Innovación"
+      "Innovación",
+      "Employee Experience"
     ],
     "values": [
       9,
       10,
       10,
       9,
+      8,
       8,
       9
     ]
