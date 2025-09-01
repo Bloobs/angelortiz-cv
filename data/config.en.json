@@ -1,175 +1,235 @@
 {
-  "personal": {
-    "name": "Ángel Ortiz Pérez",
-    "title": "Senior Technology Leader & Digital Transformation Expert",
-    "subtitle": "30+ years driving Customer Experience and Digital Innovation",
-    "email": "angel.ortizp@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/angelortiz/",
-    "location": "Madrid, Spain",
-    "cv_pdf": "docs/Angel_Ortiz_CV.pdf"
-  },
-  "stats": [
-    {
-      "value": "30+",
-      "label": "Years in Tech"
-    },
-    {
-      "value": "138",
-      "label": "People led"
-    },
-    {
-      "value": "3x",
-      "label": "Sales (UE)"
-    }
-  ],
-  "summary": [
-    "Results-driven leader with three decades steering Customer Experience (CX) and Digital Transformation for top-tier enterprises and software vendors (Oracle, Salesforce). Skilled at translating business challenges into measurable technology roadmaps, optimizing customer and employee journeys, and delivering proven ROI in every project.",
-    "End-to-end expertise across strategy, full-stack orchestration (Marketing, Sales, Service), advanced analytics, automation, and AI adoption (predictive and generative). Track record of impact: tripled sales, extended LTV to 4.5 years, and improved key KPIs (NPS/eNPS/Churn)."
-  ],
-  "phases": [
-    {
-      "title": "Development & Systems",
-      "duration": "1990–2007 · 17 years",
-      "text": "Strong technical foundation: SCADA, WCM, eCommerce, enterprise platforms."
-    },
-    {
-      "title": "Software Vendors",
-      "duration": "2007–2014 · 2022–today · 10+ years",
-      "text": "Oracle & Salesforce: strategic consulting and CRM/ECM adoption at scale."
-    },
-    {
-      "title": "End Customer",
-      "duration": "2014–2022 · 8 years",
-      "text": "Unidad Editorial & Prosegur: digital transformation with business KPIs."
-    }
-  ],
-  "timeline": [
-    {
-      "period": "2022–Present",
-      "role": "Senior Account Executive",
-      "company": "Salesforce",
-      "desc": "CRM 360, Generative AI (Agentforce), value strategy",
-      "color": "#1e3a8a"
-    },
-    {
-      "period": "2018–2022",
-      "role": "Employee Experience Officer",
-      "company": "Prosegur",
-      "desc": "Global EX (49), AI recruiting, eNPS dashboards",
-      "color": "#3b82f6"
-    },
-    {
-      "period": "2014–2018",
-      "role": "Customer Experience Officer",
-      "company": "Unidad Editorial",
-      "desc": "3x sales, 4.5-year LTV, omnichannel, NBA",
-      "color": "#60a5fa"
-    },
-    {
-      "period": "2007–2014",
-      "role": "CX Apps Sales / Strategic Accounts",
-      "company": "Oracle",
-      "desc": "Roadmaps, ECM/WCM, Iberia",
-      "color": "#0ea5e9"
-    },
-    {
-      "period": "2001–2007",
-      "role": "eBusiness Director",
-      "company": "Informática El Corte Inglés",
-      "desc": "12 teams, 138 professionals",
-      "color": "#22d3ee"
-    }
-  ],
-  "achievements": [
-    {
-      "metric": "3x",
-      "text": "Sales increase (Unidad Editorial)"
-    },
-    {
-      "metric": "4.5 yrs",
-      "text": "Average LTV (Unidad Editorial)"
-    },
-    {
-      "metric": "138",
-      "text": "Largest team led"
-    },
-    {
-      "metric": "49",
-      "text": "Global EX team (Prosegur)"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Customer Experience",
-      "level": 95
-    },
-    {
-      "name": "Digital Transformation",
-      "level": 95
-    },
-    {
-      "name": "Team Leadership",
-      "level": 90
-    },
-    {
-      "name": "CRM 360 (Salesforce)",
-      "level": 95
-    },
-    {
-      "name": "AI/ML",
-      "level": 85
-    }
-  ],
-  "awards": [
-    {
-      "icon": "🏆",
-      "title": "Platinum Contact Center Award 2017",
-      "text": "Best multichannel deployment (Unidad Editorial).",
-      "image": "contact-center-award-2017.jpg",
-      "link": "https://www.contactcenter.es/premios"
-    },
-    {
-      "icon": "🎥",
-      "title": "Oracle Service Cloud Case · Testimonial",
-      "text": "Video about digital transformation at Unidad Editorial.",
-      "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-    },
-    {
-      "icon": "📰",
-      "title": "Ebolution · eCommerce Strategy",
-      "text": "Testimonial on subscription and sales initiatives.",
-      "image": "ebolution-case.jpg",
-      "link": "https://www.ebolution.com/caso-unidad-editorial"
-    }
-  ],
-  "career_years": {
-    "labels": [
-      "Development & Systems",
-      "Vendors (Oracle, SF)",
-      "End Customer"
-    ],
-    "values": [
-      17,
-      10,
-      8
-    ]
-  },
-  "radar": {
-    "labels": [
-      "Technical Leadership",
-      "Customer Experience",
-      "Digital Transformation",
-      "People Management",
-      "Sales & Consulting",
-      "Process Innovation"
-    ],
-    "values": [
-      9,
-      10,
-      10,
-      9,
-      8,
-      9
-    ]
-  }
+"personal": {
+"name": "Ángel Ortiz Pérez",
+"title": "Senior Technology Leader & Digital Transformation Expert",
+"subtitle": "30+ years driving Customer Experience and Digital Innovation",
+"email": "angel.ortizp@gmail.com",
+"linkedin": "https://www.linkedin.com/in/angelortiz/",
+"location": "Madrid, Spain",
+"cv_pdf": "docs/Angel_Ortiz_CV.pdf"
+},
+"stats": [
+{
+"value": "30+",
+"label": "Years in technology"
+},
+{
+"value": "138",
+"label": "People led"
+},
+{
+"value": "+30",
+"label": "Information Systems deployed"
+},
+{
+"value": "Cliente 360º",
+"label": "Marketing, Sales, eComm, Service, Loyalty"
+},
+{
+"value": "Empleado 360º",
+"label": "Recruiting, Onboarding, Admin, Compensation, Training"
+},
+{
+"value": "NPS, eNPS, LTV, %Churn",
+"label": "Business KPIs and Dashboards across all projects"
+}
+],
+"summary": [
+"Results-driven professional with three decades leading Customer Experience (CX) and Digital Transformation strategies at leading companies and top-tier software vendors (Oracle, Salesforce). Expert at turning business challenges into measurable technology roadmaps, optimizing customer and employee journeys, and delivering proven ROI on every project.",
+"End-to-end expertise: strategy design, full-stack orchestration (Marketing, Sales, Service), advanced analytics, automation, and adoption of AI (predictive and generative). Track record of impact: tripled sales, extended LTV to 4.5 years, and improved key KPIs (NPS/eNPS/Churn)."
+],
+"phases": [
+{
+"title": "Development & Systems",
+"duration": "1990–2007 · 17 years",
+"text": "Technical foundation: SCADA, WCM, ECM, eCommerce, CRM."
+},
+{
+"title": "Software Vendors",
+"duration": "2007–2014 · 2022–today · 10+ years",
+"text": "Oracle and Salesforce: strategic consulting and large-scale adoption of CRM/ ECM/ WCM/ eCommerce."
+},
+{
+"title": "End Customer",
+"duration": "2014–2022 · 8 years",
+"text": "Unidad Editorial and Prosegur: Customer Experience, Employee Experience in digital transformation projects with business KPIs."
+}
+],
+"timeline": [
+{
+"period": "2022–Present",
+"role": "Senior Account Executive",
+"company": "Salesforce",
+"desc": "CRM 360, Generative AI (Agentforce), value strategy",
+"color": "#1e3a8a"
+},
+{
+"period": "2018–2022",
+"role": "Employee Experience Officer",
+"company": "Prosegur",
+"desc": "Global EX (49), Employee Journey redesign, AI recruiting, eNPS dashboards",
+"color": "#3b82f6"
+},
+{
+"period": "2014–2018",
+"role": "Customer Experience Officer",
+"company": "Unidad Editorial",
+"desc": "CX Director (8), Customer Journey redesign, 3x sales, 4.5-year LTV, omnichannel, NBA",
+"color": "#60a5fa"
+},
+{
+"period": "2007–2014",
+"role": "CX Apps Sales / Strategic Accounts",
+"company": "Oracle",
+"desc": "License sales and consulting, ECM/ WCM/ CRM / CX, Iberia",
+"color": "#0ea5e9"
+},
+{
+"period": "2001–2007",
+"role": "eBusiness Director",
+"company": "Informática El Corte Inglés",
+"desc": "12 teams, 138 professionals. Project implementations for icex, telefonica, iberia, terra, comunidad de madrid, generalitat de cataluña, principado de asturias, El Corte Ingles",
+"color": "#22d3ee"
+},
+{
+"period": "2000–2001",
+"role": "Co-Founder",
+"company": "Sílice Computers",
+"desc": "CTO",
+"color": "#22d3ee"
+},
+{
+"period": "1990–2000",
+"role": "Developer & Project Manager",
+"company": "SAC, Eliop, Polar, Openbank, Visual Tools",
+"desc": "Development in C, C++, Pascal, Java, Oracle DB",
+"color": "#22d3ee"
+}
+],
+"achievements": [
+{
+"metric": "3.8 Glassdoor",
+"text": "Prosegur: from 3.0 to 3.8 in Glassdoor (career growth, work-life balance, culture & values)"
+},
+{
+"metric": "54 eNPS",
+"text": "Employee NPS at Prosegur (175K employees across 25 countries)"
+},
+{
+"metric": "3x",
+"text": "Sales increase (Unidad Editorial)"
+},
+{
+"metric": "4.5 years",
+"text": "Average LTV extension (Unidad Editorial)"
+},
+{
+"metric": "+30",
+"text": "Large Information Systems deployed"
+},
+{
+"metric": "138",
+"text": "Largest team managed (Informática El Corte Inglés)"
+},
+{
+"metric": "49",
+"text": "Global EX team (Prosegur)"
+}
+],
+"skills": [
+{
+"name": "Customer Experience",
+"level": 95
+},
+{
+"name": "Digital Transformation",
+"level": 95
+},
+{
+"name": "Team Leadership",
+"level": 90
+},
+{
+"name": "CRM 360 (Salesforce)",
+"level": 95
+},
+{
+"name": "AI/ML",
+"level": 85
+}
+],
+"awards": [
+{
+"icon": "🏆",
+"title": "Employee Experience: Prosegur",
+"text": "EX best practices and Roadmap",
+"image": "video-llyc.png",
+"link": "https://www.youtube.com/watch?v=GiDmjg1R0HE"
+},
+{
+"icon": "🎥",
+"title": "Employee Experience: Prosegur",
+"text": "EX Digital Transformation and Employee Reskilling.",
+"image": "video-cornerstone.png",
+"video": "https://www.youtube.com/watch?v=StEUihqLiQw"
+},
+{
+"icon": "📰",
+"title": "CXM Zaragoza",
+"text": "Unidad Editorial success story",
+"image": "video-ue-cxm.png",
+"link": "https://www.youtube.com/watch?v=qP7T4r2zN4M"
+},
+{
+"icon": "🏆",
+"title": "Platinum Contact Center Award 2017",
+"text": "Best multichannel deployment (Unidad Editorial + Oracle).",
+"image": "premio-contact-center-2017.jpg",
+"link": "https://www.expansion.com/sociedad/2016/06/29/5773a768ca474194738b45fb.html"
+},
+{
+"icon": "🎥",
+"title": "Unidad Editorial CX Team - Vass. Testimonial",
+"text": "Video about digital transformation at Unidad Editorial.",
+"image": "video-ue-oracle.png",
+"video": "https://www.youtube.com/watch?v=vZ1HBTNcuJU"
+},
+{
+"icon": "📰",
+"title": "Unidad Editorial CX Team - Ebolution · eCommerce Strategy",
+"text": "Testimonial on subscription and sales initiatives.",
+"image": "video-ue-ebolution.png",
+"link": "https://www.youtube.com/watch?v=h3Zrbv3qm6k"
+}
+],
+"career_years": {
+"labels": [
+"Development & Systems",
+"Vendors (Oracle, SF)",
+"End Customer"
+],
+"values": [
+17,
+10,
+8
+]
+},
+"radar": {
+"labels": [
+"Technical Leadership",
+"Customer Experience",
+"Digital Transformation",
+"Team Management",
+"Sales & Consulting",
+"Innovation"
+],
+"values": [
+9,
+10,
+10,
+9,
+8,
+9
+]
+}
 }
