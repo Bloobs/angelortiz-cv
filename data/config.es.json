@@ -110,7 +110,7 @@
   "achievements": [
     {
       "metric": "3.8 Glassdoor",
-      "text": "Prosegur paso de 3.0 a 3.8 de incremento en valoracion de empleados en Glassdoor (proyeccion profesional, conciliación y cultura y valores)"
+      "text": "Prosegur: de 3.0 a 3.8 en Glassdoor (proyeccion profesional, conciliación y cultura y valores)"
     },
     {
       "metric": "54 eNPS",
@@ -159,22 +159,23 @@
     {
       "icon": "🏆",
       "title": "Platinum Contact Center Award 2017",
-      "text": "Mejor despliegue multicanal (Unidad Editorial).",
+      "text": "Mejor despliegue multicanal (Unidad Editorial + Oracle).",
       "image": "premio-contact-center-2017.jpg",
-      "link": "https://www.contactcenter.es/premios"
+      "link": "https://www.expansion.com/sociedad/2016/06/29/5773a768ca474194738b45fb.html"
     },
     {
       "icon": "🎥",
-      "title": "Caso Oracle Service Cloud · Testimonial",
+      "title": "Equipo CX Unidad Editorial - Vass. Testimonial",
       "text": "Video sobre la transformación digital en Unidad Editorial.",
-      "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      "image": "video-ue-oracle.png",
+      "video": "https://www.youtube.com/watch?v=vZ1HBTNcuJU"
     },
     {
       "icon": "📰",
-      "title": "Ebolution · eCommerce Strategy",
+      "title": "Equipo CX Unidad Editorial - Ebolution · eCommerce Strategy",
       "text": "Testimonio sobre iniciativas de suscripción y ventas.",
-      "image": "ebolution-caso.jpg",
-      "link": "https://www.ebolution.com/caso-unidad-editorial"
+      "image": "video-ue-ebolution.png",
+      "link": "https://www.youtube.com/watch?v=h3Zrbv3qm6k"
     }
   ],
   "career_years": {
