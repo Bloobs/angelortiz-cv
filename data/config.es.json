@@ -163,6 +163,23 @@
       "level": 90
     }
   ],
+  "education": [
+  {
+    "icon": "🎓",
+    "title": "Universidad Pontificia Comillas",
+    "text": "Degree in Computer Science & Business Administration (1987–1990)"
+  },
+  {
+    "icon": "🎓",
+    "title": "Universitat Oberta de Catalunya",
+    "text": "Master Degree in Computer Science (2004–2009)"
+  },
+  {
+    "icon": "🎓",
+    "title": "IESE Business School – University of Navarra",
+    "text": "Business Plan Development, Seminar (2000)"
+  }
+]  
   "awards": [
     {
       "icon": "🏆",
