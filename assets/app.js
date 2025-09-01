@@ -8,13 +8,13 @@
   const I18N_LABELS = {
     es: { brand: 'Ángel Ortiz',
       nav:{home:'Inicio',summary:'Resumen',phases:'Fases',career:'Carrera',achievements:'Logros',skills:'Habilidades',awards:'Reconocimientos',charts:'Gráficos',contact:'Contacto'},
-      sections:{summary:'Resumen Ejecutivo',phases:'Fases de Carrera',career:'Trayectoria',achievements:'Logros',skills:'Habilidades',awards:'Reconocimientos & Premios',charts:'Gráficos',contact:'Contacto'},
+      sections:{summary:'Resumen Ejecutivo',phases:'Fases de Carrera',career:'Trayectoria',achievements:'Logros',skills:'Habilidades',education:'Formación',awards:'Reconocimientos & Premios',charts:'Gráficos',contact:'Contacto'},
       charts:{yearsByPhase:'Años por Fase',skillsRadar:'Matriz de Competencias'},
       cta:{downloadCv:'Descargar CV (PDF)'}, contact:{emailLabel:'Correo:'}
     },
     en: { brand: 'Ángel Ortiz',
       nav:{home:'Home',summary:'Summary',phases:'Phases',career:'Career',achievements:'Achievements',skills:'Skills',awards:'Awards',charts:'Charts',contact:'Contact'},
-      sections:{summary:'Executive Summary',phases:'Career Phases',career:'Career Timeline',achievements:'Key Achievements',skills:'Skills',awards:'Recognitions & Awards',charts:'Charts',contact:'Contact'},
+      sections:{summary:'Executive Summary',phases:'Career Phases',career:'Career Timeline',achievements:'Key Achievements',skills:'Skills',education:'Education',awards:'Recognitions & Awards',charts:'Charts',contact:'Contact'},
       charts:{yearsByPhase:'Years by Phase',skillsRadar:'Skills Matrix'},
       cta:{downloadCv:'Download CV (PDF)'}, contact:{emailLabel:'Email:'}
     }
