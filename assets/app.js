@@ -189,15 +189,20 @@ function renderEducation(cfg){
     // - Preferencia 2: si el link es YouTube, usar thumbnail de YouTube
     let wideThumb = '';
     if(e.link){
+      // Prioridad: e.preview si existe
       let thumbUrl = e.preview || '';
+      // Si no hay preview y el link es YouTube, generar miniatura
       if(!thumbUrl){
         const id = ytId(e.link);
         if(id){ thumbUrl = `https://img.youtube.com/vi/${id}/hqdefault.jpg`; }
       }
+      // Si thumbUrl no es URL absoluta, resolver desde img/
       if(thumbUrl){
+        const isAbsolute = /^https?:\/\//i.test(thumbUrl);
+        const resolved = isAbsolute ? thumbUrl : `img/${thumbUrl}`;
         wideThumb = `
           <a class="edu-linkwide" href="${e.link}" target="_blank" rel="noopener">
-            <img src="${thumbUrl}" alt="${e.title || 'link preview'}" loading="lazy">
+            <img src="${resolved}" alt="${e.title || 'link preview'}" loading="lazy">
           </a>`;
       }
     }
