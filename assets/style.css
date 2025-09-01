@@ -175,6 +175,26 @@ body::before{
 }
 .media-link{ display:inline-block; line-height:0; }
 
+/* Formación: mismo estilo que premios */
+.education-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+@media (max-width:980px){ .education-grid{ grid-template-columns:repeat(2,1fr); } }
+@media (max-width:640px){ .education-grid{ grid-template-columns:1fr; } }
+
+/* Reutilizamos el estilo de .award para las tarjetas de formación */
+.edu{
+  display:flex; flex-direction:column; gap:10px;
+  border:1px solid #e5e7eb; border-radius:12px; padding:16px; background:#fff;
+  box-shadow:0 6px 16px rgba(0,0,0,.04);
+}
+.edu .head{ display:flex; gap:10px; align-items:center; }
+.edu .icon{ font-size:22px; }
+.edu .edu-title{ margin:0; font-weight:800; color:#0f172a; }
+.edu .edu-title a{ color:inherit; text-decoration:none; }
+.edu .edu-title a:hover{ text-decoration:underline; }
+.edu .text{ color:#475569; }
+.edu .media-box{ margin-top:6px; }
+
+
 /* Gráficos (Chart.js) */
 .charts{ display:flex; gap:24px; overflow-x:auto; padding-bottom:8px; }
 .chart-card{
