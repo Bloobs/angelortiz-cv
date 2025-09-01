@@ -40,9 +40,9 @@
 ],
 "phases": [
 {
-"title": "Development & Systems",
-"duration": "1990–2007 · 17 years",
-"text": "Technical foundation: SCADA, WCM, ECM, eCommerce, CRM."
+"title": "End Customer",
+"duration": "2014–2022 · 8 years",
+"text": "Unidad Editorial and Prosegur: Customer Experience, Employee Experience in digital transformation projects with business KPIs."
 },
 {
 "title": "Software Vendors",
@@ -50,9 +50,9 @@
 "text": "Oracle and Salesforce: strategic consulting and large-scale adoption of CRM/ ECM/ WCM/ eCommerce."
 },
 {
-"title": "End Customer",
-"duration": "2014–2022 · 8 years",
-"text": "Unidad Editorial and Prosegur: Customer Experience, Employee Experience in digital transformation projects with business KPIs."
+"title": "Development & Systems",
+"duration": "1990–2007 · 17 years",
+"text": "Technical foundation: SCADA, WCM, ECM, eCommerce, CRM."
 }
 ],
 "timeline": [
@@ -117,11 +117,11 @@
 },
 {
 "metric": "3x",
-"text": "Sales increase (Unidad Editorial)"
+"text": "New CX journey. Marketing, Sales and Service new systems in Cloud. Sales increase (Unidad Editorial)"
 },
 {
 "metric": "4.5 years",
-"text": "Average LTV extension (Unidad Editorial)"
+"text": "New loyalty program. Average LTV extension (Unidad Editorial)"
 },
 {
 "metric": "+30",
