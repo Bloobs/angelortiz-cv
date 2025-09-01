@@ -194,14 +194,16 @@
     "title": "Universidad Complutense Madrid",
     "image": "logo_ucm.png",
     "text": "Profesor asociado Master Customer Experience (2021–2023)",
-    "link": "https://www.linkedin.com/posts/angelortiz_cx-ex-hx-activity-6946431114295058432-ENB3"
+    "link": "https://www.linkedin.com/posts/angelortiz_cx-ex-hx-activity-6946431114295058432-ENB3",
+    "preview": "preview-ucm.jpeg"
   },
   {
     "icon": "🎓",
     "title": "Instituto de estudios Cajasol",
     "image": "logo_cajasol.png",
     "text": "Profesor Asociado Master en gestión y Analítica Avanzada de datos, Big Data e IA (2025)",
-    "link": "https://www.linkedin.com/posts/angelortiz_ia-agentforce-activity-7315823346565210113-5dtJ"
+    "link": "https://www.linkedin.com/posts/angelortiz_ia-agentforce-activity-7315823346565210113-5dtJ",
+    "preview": "preview-cajasol.jpeg"
   }
 ],
   "awards": [
