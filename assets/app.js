@@ -173,15 +173,26 @@
       if(mediaHtml && (e.video||e.link)){
         mediaHtml = `<a class="media-link" href="${(e.video||e.link)}" target="_blank" rel="noopener">${mediaHtml}</a>`;
       }
-  
-      wrap.innerHTML = `
-        <div class="head">
-          <div class="icon">${e.icon || '🎓'}</div>
-          ${title}
+
+    wrap.innerHTML = `
+      <div class="head">
+        <div class="icon">${e.icon || '🎓'}</div>
+        ${title}
+      </div>
+      <div class="edu-row">
+        ${e.image
+          ? `<div class="edu-logo">
+               <img src="${e.image.startsWith('http') ? e.image : `img/${e.image}`}"
+                    alt="${e.title || 'education logo'}" loading="lazy">
+             </div>`
+          : ''
+        }
+        <div class="edu-body">
+          <div class="text">${e.text || ''}</div>
+          ${mediaHtml && !e.image ? `<div class="media-box">${mediaHtml}</div>` : ''}
         </div>
-        <div class="text">${e.text || ''}</div>
-        ${mediaHtml ? `<div class="media-box">${mediaHtml}</div>` : ''}
-      `;
+      </div>
+    `;
       box.appendChild(wrap);
     });
   }
