@@ -151,6 +151,41 @@
     }catch(e){ err('renderAwards error', e); }
   }
 
+  function renderEducation(cfg){
+    const box = document.getElementById('education'); if(!box) return;
+    box.innerHTML = '';
+    (cfg.education || []).forEach(e=>{
+      const wrap = document.createElement('div');
+      wrap.className = 'edu';
+  
+      const linked = (e.link||e.video) ? (s)=>`<a href="${(e.link||e.video)}" target="_blank" rel="noopener">${s}</a>` : (s)=>s;
+      const title = e.title ? `<h4 class="edu-title">${linked(e.title)}</h4>` : '';
+  
+      // Media opcional (igual que premios)
+      let mediaHtml = '';
+      if(e.image){
+        const src = e.image.startsWith('http') ? e.image : `img/${e.image}`;
+        mediaHtml = `<img class="media" src="${src}" alt="${e.title||'education'}" loading="lazy">`;
+      } else if(e.video){
+        // miniatura simple (opcional): si quieres, puedes reutilizar getYouTubeId y thumb
+        mediaHtml = '';
+      }
+      if(mediaHtml && (e.video||e.link)){
+        mediaHtml = `<a class="media-link" href="${(e.video||e.link)}" target="_blank" rel="noopener">${mediaHtml}</a>`;
+      }
+  
+      wrap.innerHTML = `
+        <div class="head">
+          <div class="icon">${e.icon || '🎓'}</div>
+          ${title}
+        </div>
+        <div class="text">${e.text || ''}</div>
+        ${mediaHtml ? `<div class="media-box">${mediaHtml}</div>` : ''}
+      `;
+      box.appendChild(wrap);
+    });
+  }
+
   function renderSkills(cfg){
     try{
       const box = qs('skills'); if(!box) return; box.innerHTML='';
@@ -216,6 +251,7 @@
     renderLineTimeline(cfg);
     renderAchievements(cfg);
     renderSkills(cfg);
+    renderEducation(cfg);
     renderAwards(cfg);
     renderCharts(cfg);
     log('applyLanguage done', lang);
