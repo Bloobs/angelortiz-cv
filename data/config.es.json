@@ -67,14 +67,14 @@
       "period": "2018–2022",
       "role": "Employee Experience Officer",
       "company": "Prosegur",
-      "desc": "EX global (49), IA recruiting, dashboards eNPS",
+      "desc": "EX global (49), Rediseño Journey Empleado, IA recruiting, dashboards eNPS",
       "color": "#3b82f6"
     },
     {
       "period": "2014–2018",
       "role": "Customer Experience Officer",
       "company": "Unidad Editorial",
-      "desc": "3x ventas, LTV 4.5 años, multicanal, NBA",
+      "desc": "Director CX (8), Rediseño Journey Cliente, 3x ventas, LTV 4.5 años, multicanal, NBA",
       "color": "#60a5fa"
     },
     {
@@ -125,8 +125,12 @@
       "text": "Extensión del LTV medio (Unidad Editorial)"
     },
     {
+      "metric": "+30",
+      "text": "Grandes Sistemas de Información desplegados"
+    },
+    {
       "metric": "138",
-      "text": "Tamaño máximo de equipo gestionado"
+      "text": "Tamaño máximo de equipo gestionado (Informática El Corte Inglés)"
     },
     {
       "metric": "49",
@@ -156,6 +160,27 @@
     }
   ],
   "awards": [
+    {
+      "icon": "🏆",
+      "title": "Experiencia de Empleado: Prosegur",
+      "text": "Mejores práctica EX y Roadmap",
+      "image": "video-llyc.png",
+      "link": "https://www.youtube.com/watch?v=GiDmjg1R0HE"
+    },
+    {
+      "icon": "🎥",
+      "title": "Experiencia de Empleado: Prosegur",
+      "text": "EX Transformacion Digital y Reciclaje de Empleados.",
+      "image": "video-cornerstone.png",
+      "video": "https://www.youtube.com/watch?v=StEUihqLiQw"
+    },    
+    {
+      "icon": "📰",
+      "title": "CXM zaragoza",
+      "text": "Caso de éxito Unidad Editorial",
+      "image": "video-ue-cxm.png",
+      "link": "https://www.youtube.com/watch?v=qP7T4r2zN4M"
+    },
     {
       "icon": "🏆",
       "title": "Platinum Contact Center Award 2017",
